@@ -23,8 +23,7 @@ buff everyone the same or by player level. He speaks a random phrase after every
 
 ### Version ###
 ------------------------------------------------------------------------------------------------------------------
-- v2017.08.05
-- v2017.08.06 - Removed dialogue options (Just buffs player on click)
+- v2017.08.05 - Release
 
 
 ### Credits ###
