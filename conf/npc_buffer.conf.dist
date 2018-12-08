@@ -1,0 +1,49 @@
+[worldserver]
+###################################################################################################
+#     ____    __                                         ____                           
+#    /\  _`\ /\ \__                  __                 /\  _`\                         
+#    \ \,\L\_\ \ ,_\  __  __     __ /\_\     __      ___\ \ \/\_\    ___   _ __    __   
+#     \/_\__ \\ \ \/ /\ \/\ \  /'_ `\/\ \  /'__`\  /' _ `\ \ \/_/_  / __`\/\`'__\/'__`\ 
+#       /\ \L\ \ \ \_\ \ \_\ \/\ \L\ \ \ \/\ \L\.\_/\ \/\ \ \ \L\ \/\ \L\ \ \ \//\  __/ 
+#       \ `\____\ \__\\/`____ \ \____ \ \_\ \__/.\_\ \_\ \_\ \____/\ \____/\ \_\\ \____\
+#        \/_____/\/__/ `/___/> \/___L\ \/_/\/__/\/_/\/_/\/_/\/___/  \/___/  \/_/ \/____/
+#                         /\___/ /\____/                                                
+#                         \/__/  \_/__/          http://stygianthebest.github.io                                         
+###################################################################################################
+#	BUFFER NPC
+###################################################################################################
+
+# Announce the module when the player logs in? (Default: 1)
+
+BufferNPC.Announce = 1
+
+
+# Cure Ressurection Sickness?
+
+Buff.CureRes = 1
+
+
+# Limit buffs by level (Default: 1)
+# NOTE: If this is active, the Buff ID section below will NOT be used.
+
+Buff.ByLevel = 0
+
+# Buff Defaults (Leave blank to disable a buff)
+# 1. Prayer of Fortitude (48162)
+# 2. Greater Blessing of Kings (43223)
+# 3. Mark of the Wild (48469)
+# 4. Prayer of Spirit (48074)
+# 5. Prayer of Shadow Protection (48170)
+# 6. Arcane Intellect (36880)
+# ----------------------------------------------
+# Fun Stuff
+# 48612 (Dalron the Controller)
+
+Buff.ID1 = 48162
+Buff.ID2 = 43223
+Buff.ID3 = 48469
+Buff.ID4 = 48074
+Buff.ID5 = 48170
+Buff.ID6 = 36880
+
+#Alternative: Buff.Spells = "48162;43223;48469;48074;48170;36880;"
