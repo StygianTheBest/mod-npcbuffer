@@ -14,16 +14,13 @@
 ###################################################################################################
 
 # Announce the module when the player logs in? (Default: 1)
-
 BufferNPC.Announce = 1
 
 # Cure Resurrection Sickness? (Default: 1)
-
 Buff.CureRes = 1
 
 # Limit buffs by level (Default: 1, Disabled: 0)
-
-Buff.ByLevel = 0
+Buff.ByLevel = 1
 
 # Buff Defaults (Leave blank to disable a buff)
 # This function is not active if Buff.ByLevel = 1
@@ -36,16 +33,13 @@ Buff.ByLevel = 0
 # ----------------------------------------------
 # Fun Stuff
 # 48612 (Dalron the Controller)
-
 Buff.Spells = "48162;43223;48469;48074;48170;36880;"
 
 # How many phrases does the buffer speak? (Default: 10)
-
 Buff.NumPhrases = 10
 
-# Buffer Phrases
-# Add your own!
-Buff.M1 = "A little bit of this.. a dab of that.. ahh.. there we go %s."
+# Buffer Phrases - Add your own!
+Buff.M1 = "Koiter's spirit stands watch looking out over the Barrens. Have you visted the shrine yet %s?"
 Buff.M2 = "The king's bones are still there. Everlasting in the dust. The weapons are there too.. if you know where to look %s."
 Buff.M3 = "She never shook the stars from the swirling cosmos, but she loved good tauren and rode good kodos."
 Buff.M4 = "Oh %s, how I miss those days in the wastes.. watching the sun set over Nagrand."
@@ -55,3 +49,5 @@ Buff.M7 = "You'll find the statue off the shores of Azshara %s. It lies in ruin 
 Buff.M8 = "To crush your enemies, see them driven before %s, and hear the lamentations of their women!"
 Buff.M9 = "Aye.. %s. Rumor has it there are two slaves in the cages of Blackrock Depths. Perhaps they can tell you more."
 Buff.M10 = "Indeed.. %s. The dwarves keep many secrets about that which lies beyond the deep recesses of their kingdoms."
+Buff.M11 = "A little bit of this.. a dab of that.. ahh.. there we go %s."
+
